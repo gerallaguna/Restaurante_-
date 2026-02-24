@@ -1,118 +1,117 @@
 <!doctype html>
 <html lang="es">
-<style>
-/* NAVBAR MORADA */
-.navbar-morado {
-    background: linear-gradient(135deg, #8e44ad, #c39bd3);
-}
 
-/* FOOTER MORADO */
-.footer-morado {
-    background: linear-gradient(135deg, #8e44ad, #c39bd3);
-}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sabores del Campo - Inicio</title>
 
-/* Letras del menú más bonitas */
-.navbar-morado .nav-link {
-    color: white !important;
-    font-weight: bold;
-    transition: 0.3s;
-}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-/* Efecto cuando pasas el mouse */
-.navbar-morado .nav-link:hover {
-    color: #ffd1ff !important;
-    transform: scale(1.05);
-}
+  <style>
+    /* NAVBAR MORADA */
+    .navbar-morado {
+      background: linear-gradient(135deg, #8e44ad, #c39bd3);
+    }
 
-/* Iconos redes sociales animación */
-.red-icono img {
-    transition: transform 0.3s ease;
-    border-radius: 50%;
-}
+    /* FOOTER MORADO */
+    .footer-morado {
+      background: linear-gradient(135deg, #8e44ad, #c39bd3);
+    }
 
-.red-icono img:hover {
-    transform: scale(1.2);
-}
-</style>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sabores del Campo - Inicio</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-  </head>
-  <body>
+    /* Letras del menú */
+    .navbar-morado .nav-link {
+      color: white !important;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-  <!--MAPA DE NAVEGACION -->
+    .navbar-morado .nav-link:hover {
+      color: #ffd1ff !important;
+      transform: scale(1.05);
+    }
 
+    /* Iconos redes sociales */
+    .footer-morado img {
+      transition: transform 0.3s ease;
+      border-radius: 50%;
+    }
+
+    .footer-morado img:hover {
+      transform: scale(1.2);
+    }
+
+    body {
+      background: linear-gradient(to right, #f3e8ff, #ffffff);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-morado">
-  <div class="container">
-    <a class="navbar-brand" href="#">Sabores del Campo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Sabores del Campo</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservas.html">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
- </nav>
+  </nav>
 
-  <!--Contenido-->
-
-  <div class="container text-center">
-    <h1>Bienvenidos a Sabores del Campo</h1>
+  <!-- CONTENIDO -->
+  <div class="container text-center my-5">
+    <h1 class="fw-bold text-purple">Bienvenidos a Sabores del Campo</h1>
     <p class="lead">Disfruta de la mejor comida casera, preparada con amor y tradición</p>
-    <img class="img-fluid rounded" src="imagenes/restaurante.jpg" alt="sabores del campo" title="sabores del campo"> 
+
+    <img class="img-fluid rounded shadow mt-3"
+      src="imagenes/restaurante.jpg"
+      alt="Sabores del Campo"
+      title="Sabores del Campo">
   </div>
-    
-  <footer>
-    <!--Aqui su codigo-->
-    
+
+  <!-- FOOTER -->
+  <footer class="footer-morado text-white text-center p-4 mt-5">
+    <h4 class="fw-bold">Síguenos en redes sociales</h4>
+
+    <div class="d-flex justify-content-center gap-4 mt-3">
+      <a href="https://www.facebook.com/saboresdelcampo" target="_blank">
+        <img src="imagenes/facebook_.avif" width="50" alt="Facebook">
+      </a>
+
+      <a href="https://www.instagram.com/saboresdelcampo" target="_blank">
+        <img src="imagenes/instagram-.png" width="50" alt="Instagram">
+      </a>
+
+      <a href="https://wa.me/3125678430" target="_blank">
+        <img src="imagenes/WhatsApp.svg.webp" width="50" alt="WhatsApp">
+      </a>
+    </div>
+
+    <p class="mt-3 mb-0">©️ 2026 Sabores del Campo | Comida Casera con Amor-Desarrollado: Geraldine Guali Laguna
+    </p>
   </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-     
-  </body>
-</html>
-</div>
-</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-<footer class="footer-morado text-white text-center mt-5">
-    <!-- tus redes sociales -->
-</footer>
-</body>
-  </div>
-    <!-- Footer (REDES SOCIALES) -->
-    <footer class="footer-morado text-white text-center p-4 mt-5">
-      <h4>Siguenos en redes sociales</h4>
-        <div class="d-flex justify-content-center gap-4 mt-3">
-            <a href="https://www.facebook.com/saboresdelcampo" target="_blank">
-              <img src="imagenes/facebook_.avif" width="50" alt="Facebook">
-            </a>
-
-            <a href="https://www.instagram.com/saboresdelcampo" target="_blank">
-              <img src="imagenes/instagram-.png" width="50" alt="Instagram">
-            </a>
-
-            <a href="https://wa.me/3125678430" target="_blank">
-              <img src="imagenes/WhatsApp.svg.webp" width="50" alt="WhatsApp">
-            </a>
-        </div>
-        <p class="mt-3 mb-0">© 2026 Sabores del Campo</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </div>
 </body>
 </html>
